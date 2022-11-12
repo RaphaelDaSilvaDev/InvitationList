@@ -15,23 +15,42 @@ export const Styles = StyleSheet.create({
   Description: {
     fontSize: 18,
     color: "#ccc",
-    marginTop: 16,
+    marginTop: 8,
   },
-  List: {
-    marginTop: 16,
+  Date: {
+    fontSize: 14,
+    color: "#6b6b6b",
+    marginTop: 8,
+  },
+  InputContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginTop: 32,
+    marginBottom: 16,
+  },
+  Input: {
+    flex: 1,
+    padding: 8,
+    height: 56,
+    backgroundColor: "#1f1e25",
+    borderRadius: 5,
+    color: "#f5f5f5",
+  },
+  Quantity: {
+    textAlign: "right",
+    fontSize: 16,
+    color: "#6b6b6b",
+    marginBottom: 16,
   },
   Button: {
+    alignItems: "center",
+    justifyContent: "center",
     width: 56,
     height: 56,
     backgroundColor: "#31cf67",
     borderRadius: 5,
-
-    alignItems: "center",
-    justifyContent: "center",
-
-    position: "absolute",
-    bottom: 20,
-    right: 24,
+    marginLeft: 8,
   },
   ButtonText: {
     fontSize: 20,
